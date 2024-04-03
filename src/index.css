@@ -1,3 +1,18 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Knockout';
+    src: url('./Assets/Fonts/Knockout-font/Knockout\ HTF49Liteweight\ Regular.otf');
+    font-family:'blackbones';
+    src:url('./Assets/Fonts/black_bones/Black\ Bones.ttf');
+    font-family:'roxbo';
+    src: url('./Assets/Fonts/Roxborough-CF/Roxborough\ CF.ttf');
+    font-family: 'better';
+    src: url('./Assets/Fonts/better_saturday/Better\ Saturday.otf');
+    font-family: 'gothamLight';
+    src: url('./Assets/Fonts/Gotham-Font/Gotham-Font/GothamLight.ttf');
+}

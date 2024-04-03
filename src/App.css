@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Knockout';
+    src: url('./Assets/Fonts/Knockout-font/Knockout\ HTF49Liteweight\ Regular.otf');
+    font-family:'blackbones';
+    src:url('./Assets/Fonts/black_bones/Black\ Bones.ttf');
+    font-family:'roxbo';
+    src: url('./Assets/Fonts/Roxborough-CF/Roxborough\ CF.ttf');
+    font-family: 'better';
+    src: url('./Assets/Fonts/better_saturday/Better\ Saturday.otf');
+    font-family: 'gotham';
+    src: url('./Assets/Fonts/Gotham-Font/Gotham-Font/GothamLight.ttf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.click-effect{
+transition: color 0.3s ease;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.click-effect:active{
+    color:white;
 }
