@@ -2,10 +2,10 @@
 import { CiGlobe,CiMail  } from "react-icons/ci";
 import { FaFacebook,FaWhatsapp,FaInstagramSquare } from "react-icons/fa";
 import { FaSquareXTwitter, FaLocationDot } from "react-icons/fa6";
-import contact from './Dash'
+//import contact from './Dash'
 const Contact= () =>{
     return (
-        <div ref={contact} className="bg-textcolor h-fit">
+        <div /*ref={contact} */className="bg-textcolor h-fit">
             <div className="text-white p-2">
                 <h3 className="text-3xl font-bold pl-5">Contact US</h3>
             </div>

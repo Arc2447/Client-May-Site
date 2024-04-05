@@ -1,18 +1,19 @@
-import { useState } from "react";
-import donations from './Dash';
+/*import { useState } from "react";
+import donations from './Dash';*/
 
 const Fundraiser_form= ()=>{
-const initialvalues= {firstname:"",lastname:"",ContactNo:"",email:"",Address:""}
+/*const initialvalues= {firstname:"",lastname:"",ContactNo:"",email:"",Address:""}
 const [formValues, setFormvalues] = useState(initialvalues);
+*/
 
-const handleChange = (e) =>{
+/*const handleChange = (e) =>{
     
     const {name,value}= e.target;
     setFormvalues({...formValues,[name]:value});
 }
-
+*/
     return (
-    <div ref={donations} className=' h-landscape bg-black flex flex-col md:flex-row md:flex-wrap' >
+    <div /*ref={donations}*/ className=' h-landscape bg-black flex flex-col md:flex-row md:flex-wrap' >
     
         <div className="md:w-1/2 text-white ">
             <h1 className=" text-5xl  font-roxbo text-center" > Sr Reinolda Fundraising</h1>
@@ -37,8 +38,8 @@ const handleChange = (e) =>{
             placeholder="First Name"
             name="txtfirstname" 
             id="firstname" 
-            value={formValues.firstname}
-            onChange={handleChange}
+           // value={formValues.firstname}
+            //onChange={handleChange}
         ></input>
     </div>
 
@@ -49,8 +50,8 @@ const handleChange = (e) =>{
             type="text" 
             placeholder="Last Name" 
             name="txtlastname" 
-            id="lastname" value={formValues.lastname}
-            onChange={handleChange}
+           // id="lastname" value={formValues.lastname}
+           // onChange={handleChange}
         ></input>
     </div>
 
@@ -62,8 +63,8 @@ const handleChange = (e) =>{
             placeholder="1234567890" 
             name="txtnumber"
             id="number" 
-            value={formValues.ContactNo}
-            onChange={handleChange}
+           // value={formValues.ContactNo}
+           // onChange={handleChange}
         ></input>
     </div>
     <div>
@@ -74,8 +75,8 @@ const handleChange = (e) =>{
             placeholder="Abc123@aaa.com" 
             name="txtemail" 
             id="email" 
-            value={formValues.email}
-            onChange={handleChange}
+           // value={formValues.email}
+           // onChange={handleChange}
         ></input>
     </div>
 
@@ -87,8 +88,8 @@ const handleChange = (e) =>{
             name="txtaddress" placeh
             older="122 Abc Street, Sandton,9090" 
             id="address" 
-            value={formValues.Address}
-            onChange={handleChange}
+           // value={formValues.Address}
+           // onChange={handleChange}
         ></input>
     </div>
     <div>
